@@ -2,7 +2,7 @@ import  { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import "@fontsource/roboto";
 import './App.css'; 
-import Home from './components/Home'; 
+import Home from './Components/Home'; 
 import MasterClass3 from './components/MasterClass3';
 import About from './components/About'; 
 import GAX from './components/GAX'; 
