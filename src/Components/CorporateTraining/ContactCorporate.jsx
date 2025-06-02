@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useInView } from "react-intersection-observer";
 import PropTypes from 'prop-types';
 import RahulBagale from '../../assets/RahulBagale.avif'
-import PratapPawar from '../../assets/Pratap Pawar.avif'
+// import PratapPawar from '../../assets/Pratap Pawar.avif' 
 import SuvarnaRao from '../../assets/Suvarnanidhi Rao.avif'
 import SushantKumar from '../../assets/Sushant Kumar.avif'
 import SunainaDatta from '../../assets/Sunaina Dutta.avif'
@@ -34,14 +34,14 @@ const testimonials = [
     institution: "Force Motors Ltd.",
     profilePic: RahulBagale,
   },
-  {
-    message:
-      "Their commitment to nurturing and grooming exceptional talent is truly commendable. The graduates we've recruited from Gryphon Academy have consistently proven to be skilled, adaptable, and well-prepared for the demands of the industry.",
-    name: "Cdr. Pratap Pawar",
-    title: "Director HR & IT ",
-    institution: "Gs lab",
-    profilePic: PratapPawar,
-  },
+  // {
+  //   message:
+  //     "Their commitment to nurturing and grooming exceptional talent is truly commendable. The graduates we've recruited from Gryphon Academy have consistently proven to be skilled, adaptable, and well-prepared for the demands of the industry.",
+  //   name: "Cdr. Pratap Pawar",
+  //   title: "Director HR & IT ",
+  //   institution: "Gs lab",
+  //   profilePic: PratapPawar,
+  // },
   {
     message:
       "The talent pool Gryphon offers is a testament to their dedication in producing industry-ready graduates. We thank Gryphon Academy for consistently providing us with such outstanding talent. ",

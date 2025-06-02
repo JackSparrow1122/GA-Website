@@ -5,7 +5,7 @@ const MajorRecruiter = () => {
   const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' && window.innerWidth < 768);
 
   const logoPaths = [
-    'TopRecruiters/40.avif',
+    'TopRecruiters/brillio.png',
     'TopRecruiters/1.avif',
     'TopRecruiters/2.avif',
     'TopRecruiters/3.avif',

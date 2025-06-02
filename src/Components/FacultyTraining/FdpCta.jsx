@@ -11,9 +11,9 @@ const testimonials = [
       "Gryphon holds a special place for me. Over the years, Gryphon has experienced significant growth, and it's been a journey filled with valuable lessons. I wish them continued success in all their future endeavors.",
     name: "Dr. Tarita Shankar",
     title:
-      "Founder, Secretary & Chief Managing Trustee Shree Chanakya Education Society. Chairperson",
+      "President Designate - Indira University & Chairperson and Chief Mentor",
     institution: "Indira Group of Institutes, Pune",
-    profilePic: "Clgimage/indiraGroup",
+    profilePic: "Clgimage/iu.png",
   },
   {
     message:
@@ -58,7 +58,7 @@ const testimonials = [
     message:
       "Gryphon Academy's training kindles potential. Our students' achievements in the competitive world validate Gryphon's commitment to excellence. The expertise of their experienced trainers from various fields is second to none.",
     name: "Mr. Makrand Kaingade",
-    title: "TPO ",
+    title: "Training and Placement Officer ",
     institution: "DY Patil College of Engineering & Technology, Kolhapur",
     profilePic: "placement-bg/College logo 7.png",
   },
@@ -66,7 +66,7 @@ const testimonials = [
     message:
       "Thanks to Gryphon's industry-focused training and the expertise of their trainers, our students have embarked on an incredible journey from classrooms to successful careers.",
     name: "Mr. Manoj Choughule ",
-    title: "TPO",
+    title: "Training and Placement Officer",
     institution: "DKTE - Yashwntaro Chavan college of polytechnic ",
     profilePic: "Clgimage/dkte.png",
   },

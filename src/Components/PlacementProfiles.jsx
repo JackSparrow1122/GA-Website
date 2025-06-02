@@ -64,9 +64,9 @@ const ProfileItem = ({ icon, name, isMBA = false }) => {
     <div
       className={`flex items-center gap-6 p-4 rounded-lg shadow-sm transition duration-300
         ${isMBA
-          ? "bg-[#1E3A8A] hover:bg-white/5 flex-row-reverse"
-          : "bg-white/5 hover:bg-[#1E3A8A]"
-        }`}
+          ? "bg-[#1E3A8A] hover:bg-white/5 flex-row-reverse text-right"
+          : "bg-white/5 hover:bg-[#1E3A8A] text-left"}`
+      }
     >
       {/* Outer Circle */}
       <div className="w-16 h-16 flex items-center justify-center rounded-full border-2 border-dotted border-[#FFB800] shrink-0">
@@ -77,10 +77,13 @@ const ProfileItem = ({ icon, name, isMBA = false }) => {
       </div>
 
       {/* Text */}
-      <div className="text-white font-medium text-lg">{name}</div>
+      <div className="text-white font-medium text-lg">
+        {name}
+      </div>
     </div>
   );
 };
+
 
   const Heading = ({ children }) => (
   <div className="mb-4 text-center">
