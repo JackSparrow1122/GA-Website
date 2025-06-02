@@ -1,5 +1,5 @@
 import React from 'react';
- import img from '../../src/assets/AboutUs.avif'
+ import img from '../assets/AboutUS.avif'
 function AboutNew() {
   return (
     <div className="p-0 text-center roboto-regular relative ">
