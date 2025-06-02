@@ -12,7 +12,7 @@ import ConnectWithUs from "./CollegeTraining/ConnectWithUs";
 import HookLine from "./HookLine"; // Import the new component
 import PlacementKnowMore from "./PlacementKnowMore";
 import PlacementProfiles from "./PlacementProfiles";
-import PlacementBanner from '../Components/CollegeTraining/PlacementBanner'
+import PlacementBanner from './CollegeTraining/PlacementBanner'
 
 const Placement = () => {
   return (
