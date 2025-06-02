@@ -25,7 +25,7 @@ import college23 from '/public/placement-bg/asm.png';
 import college24 from '/public/placement-bg/ifeel.png';
 import college25 from '/public/placement-bg/ies.png';
 import college26 from '/public/placement-bg/isbr.png';
-import college27 from '/public/placement-bg/Lexicon.png';
+import college27 from '/public/placement-bg/lexicon';
 import college28 from '/public/placement-bg/dnyan.png';
 import college29 from '/public/placement-bg/mgi.png';
 import college30 from '/public/placement-bg/vsit.png';
