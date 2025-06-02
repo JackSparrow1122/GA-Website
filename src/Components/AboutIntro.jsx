@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import vdo from '/public/About/Intro-2.mp4'
 const AboutIntro = () => {
   useEffect(() => {
     AOS.init({
@@ -66,7 +66,7 @@ const AboutIntro = () => {
           data-aos-delay="200"
         >
           <video
-            src="About/Intro-2.mp4"
+            src={vdo}
             alt="About Us"
             className="w-full object-cover"
             loop
