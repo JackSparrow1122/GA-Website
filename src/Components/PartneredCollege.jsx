@@ -1,0 +1,92 @@
+import React from 'react';
+import college1 from '/public/placement-bg/Collegelogo1.png';
+import college2 from '/public/placement-bg/College logo 2 1.png';
+import college3 from '/public/placement-bg/College logo 3 1.png';
+import college4 from '/public/placement-bg/College logo 4 1.png';
+import college5 from '/public/Clgimage/5-2.png';
+import college6 from '/public/placement-bg/College logo 7.png';
+import college7 from '/public/Clgimage/iicmrnew.png';
+import college8 from '/public/Clgimage/dietnew.png';
+import college9 from '/public/Clgimage/sce.png';
+import college10 from '/public/Clgimage/pbs.png';
+import college11 from '/public/Clgimage/jjm.png';
+import college12 from '/public/Clgimage/jspm.png';
+import college13 from '/public/Clgimage/13-1.png';
+import college14 from '/public/Clgimage/sppu.png';
+import college15 from '/public/Clgimage/sbp.png';
+import college16 from '/public/Clgimage/16-1.png';
+import college17 from '/public/placement-bg/College logo 5 1.png';
+import college18 from '/public/placement-bg/agnel.png';
+import college19 from '/public/placement-bg/bitm.png';
+import college20 from '/public/placement-bg/bidar.png';
+import college21 from '/public/placement-bg/dkte.png';
+import college22 from '/public/placement-bg/lexicon.png';
+import college23 from '/public/placement-bg/asm.png';
+import college24 from '/public/placement-bg/ifeel.png';
+import college25 from '/public/placement-bg/IES.png';
+import college26 from '/public/placement-bg/isbr.png';
+import college27 from '/public/placement-bg/Lexicon.png';
+import college28 from '/public/placement-bg/dnyan.png';
+import college29 from '/public/placement-bg/mgi.png';
+import college30 from '/public/placement-bg/vsit.png';
+
+const PartneredCollege = () => {
+  const colleges = [
+    { name: 'college Image', imageUrl: college1 },
+    { name: 'college Image', imageUrl: college2 },
+    { name: 'college Image', imageUrl: college3 },
+    { name: 'college Image', imageUrl: college4 },
+    { name: 'college Image', imageUrl: college5 },
+    { name: 'college Image', imageUrl: college6 },
+    { name: 'college Image', imageUrl: college7 },
+    { name: 'college Image', imageUrl: college8 },
+    { name: 'college Image', imageUrl: college9 },
+    { name: 'college Image', imageUrl: college10 },
+    { name: 'college Image', imageUrl: college11 },
+    { name: 'college Image', imageUrl: college12 },
+    { name: 'college Image', imageUrl: college13 },
+    { name: 'college Image', imageUrl: college14 },
+    { name: 'college Image', imageUrl: college15 },
+    { name: 'college Image', imageUrl: college16 },
+    { name: 'college Image', imageUrl: college17 },
+    { name: 'college Image', imageUrl: college18 },
+    { name: 'college Image', imageUrl: college19 },
+    { name: 'college Image', imageUrl: college20 },
+    { name: 'college Image', imageUrl: college21 },
+    { name: 'college Image', imageUrl: college22 },
+    { name: 'college Image', imageUrl: college23 },
+    { name: 'college Image', imageUrl: college24 },
+    { name: 'college Image', imageUrl: college25 },
+    { name: 'college Image', imageUrl: college26 },
+    { name: 'college Image', imageUrl: college27 },
+    { name: 'college Image', imageUrl: college28 },
+    { name: 'college Image', imageUrl: college29 },
+    { name: 'college Image', imageUrl: college30 },
+  ];
+
+  return (
+    <div className="bg-[#01224F] py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-center text-[#ffc700] text-2xl sm:text-3xl lg:text-4xl font-bold mb-8">
+          Partnered Colleges
+        </h2>
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 place-items-center">
+          {colleges.map((college, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36"
+            >
+              <img
+                src={college.imageUrl}
+                alt={college.name}
+                className="h-full object-contain"
+              />
+            </div>  
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PartneredCollege;
