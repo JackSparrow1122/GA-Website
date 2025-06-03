@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import vdo from '/public/About/Intro.mp4'
+import vdo from '/public/About/introvdo.mp4'
 const AboutIntro = () => {
   useEffect(() => {
     AOS.init({
