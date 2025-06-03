@@ -105,7 +105,7 @@ const challenges = [
       <div className="bg-[#01224F] py-4 flex items-center justify-center roboto-regular">
         <div className="container mx-auto px-8 sm:px-8 md:px-16 lg:px-16">
           <h1 className="text-3xl md:text-4xl font-bold text-center text-[#ffc700] mb-8">Challenges & Solutions</h1>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4">
+          <div className="grid gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
             {challenges.map((challenge, index) => {
               const cardColor = '#003073';
               const isHovered = hoveredIndex === index;
