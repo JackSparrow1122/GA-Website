@@ -14,7 +14,7 @@ const testimonials = [
     title:
       "President Designate - Indira University & Chairperson and Chief Mentor",
     institution: "Indira Group of Institutes, Pune",
-    profilePic: "Clgimage/iu.png",
+    profilePic: "Clgimage/iu.avif",
   },
   {
     message:
@@ -22,7 +22,7 @@ const testimonials = [
     name: "Ms. Dhanwantari Wangde",
     title: "CEO",
     institution: "Dnyanshree Institute of Engineering & Technology, Satara",
-    profilePic: "Clgimage/diet.png",
+    profilePic: "Clgimage/diet.avif",
   },
   {
     message:
@@ -30,14 +30,14 @@ const testimonials = [
     name: "Mr. Amit Kolhe",
     title: "Managing Trustee",
     institution: "Sanjivani College of Engineering, Kopargaon",
-    profilePic: "Clgimage/sanjivani.png",
+    profilePic: "Clgimage/sanjivani.avif",
   },
   {
     message: "Sharad Institute of Technology College of Engineering, Ichalkaranji Kolhapur, has partnered with Gryphon Academy. Together, we are dedicated to providingcomprehensive services to students across all domains. Gryphon's proven track record in delivering outstanding results for various institutions has impressed us.  "  ,
     name: "Ms. Neha A Parsoon",
     title: "Training and Placement Officer",
     institution: "Sharad Institute Of Technology College Of Engineering Ichalkaranji, Kolhapur",
-    profilePic: "placement-bg/vsit.png",
+    profilePic: "placement-bg/vsit.avif",
   },
   {
     message:
@@ -45,7 +45,7 @@ const testimonials = [
     name: "Ms. Priyanka Pawar",
     title: "Associate Professor & Dy. Director Training & Development",
     institution: "Indira College of Engineering & Management (ICEM), Pune",
-    profilePic: "placement-bg/Collegelogo1.png",
+    profilePic: "placement-bg/Collegelogo1.avif",
   },
   {
     message:
@@ -53,7 +53,7 @@ const testimonials = [
     name: "Dr. Thomas George",
     title: "Director",
     institution: "Lead College of Management, Palakkad, Kerala",
-    profilePic: "Clgimage/lead.png",
+    profilePic: "Clgimage/lead.avif",
   },
   {
     message:
@@ -61,7 +61,7 @@ const testimonials = [
     name: "Mr. Makrand Kaingade",
     title: "Training and Placement Officer ",
     institution: "DY Patil College of Engineering & Technology, Kolhapur",
-    profilePic: "placement-bg/College logo 7.png",
+    profilePic: "placement-bg/College logo 7.avif",
   },
   {
     message:
@@ -69,7 +69,7 @@ const testimonials = [
     name: "Mr. Manoj Choughule ",
     title: "Training and Placement Officer",
     institution: "DKTE - Yashwntaro Chavan college of polytechnic ",
-    profilePic: "Clgimage/dkte.png",
+    profilePic: "Clgimage/dkte.avif",
   },
   {
     message:
@@ -77,7 +77,7 @@ const testimonials = [
     name: "Mr. Anoop Seth ",
     title: "Director- Placements & Corporate Connect",
     institution: "Lexicon MILE - Management Institute For Leadership and Excellence ",
-    profilePic: "Clgimage/lexicon.png",
+    profilePic: "Clgimage/lexicon.avif",
   },
 ];
  
@@ -271,7 +271,8 @@ const ContactForm = () => {
                 </h1>
  
                 <img
-                  src="LandingImage/contactform.png"
+                  src="LandingImage/contactform.avif
+            "
                   alt="Salesperson illustration"
                   className="w-64 md:w-72 lg:w-80 xl:w-96 max-w-full h-auto object-cover rounded-lg flex-1"
                   style={{ minWidth: "150px" }} // Adjust as needed
