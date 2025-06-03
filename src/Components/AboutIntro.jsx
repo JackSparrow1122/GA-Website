@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import vdo from '/public/About/Intro.mp4'
+
 const AboutIntro = () => {
   useEffect(() => {
     AOS.init({
@@ -18,7 +18,7 @@ const AboutIntro = () => {
   return (
     <div className="relative overflow-hidden px-4 sm:px-6 md:px-8 lg:px-16 py-4 md:py-6 bg-[#fdfdfd]">
       <div className="flex flex-col lg:flex-row justify-between mx-auto">
-        {/* Left Side (Text and Button) - 30% width on large screens */}
+        {/* Left Side (Text and Button) */}
         <div
           className="lg:w-[40%] w-full text-left mb-4 sm:mb-6"
           data-aos="fade-up"
@@ -38,7 +38,6 @@ const AboutIntro = () => {
             <br className="hidden md:block" /> Approach
           </h1>
 
-          {/* Bottom-left text and button */}
           <div className="mt-4 md:mt-8">
             <p className="text-base sm:text-lg text-black mb-0">
               As India’s premier non-ed-tech organization, we are committed to
@@ -50,7 +49,7 @@ const AboutIntro = () => {
             </p>
             <button
               onClick={handleNavigate}
-              className="inline-block text-base font-bold mt-2 md:mt-6 mb-2 md:mb-6 border-2 border-[#1e3a8a] hover:border-[#000]  py-1 md:py-2 px-2 transition duration-300 ease-in-out transform hover:bg-[#1e3a8a] hover:text-[#ffffff] hover:scale-105"
+              className="inline-block text-base font-bold mt-2 md:mt-6 mb-2 md:mb-6 border-2 border-[#1e3a8a] hover:border-[#000] py-1 md:py-2 px-2 transition duration-300 ease-in-out transform hover:bg-[#1e3a8a] hover:text-[#ffffff] hover:scale-105"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -59,19 +58,18 @@ const AboutIntro = () => {
           </div>
         </div>
 
-        {/* Right Side (Video) - 70% width on large screens */}
+        {/* Right Side (Video) */}
         <div
           className="lg:w-[60%] w-full flex justify-center items-center"
           data-aos="fade-up"
           data-aos-delay="200"
         >
           <video
-            src={vdo}
-            alt="About Us"
+            src="/About/introvdo.mp4" // ✅ Absolute path for Vercel compatibility
             className="w-full object-cover"
             loop
             autoPlay
-            muted // Add muted to ensure autoplay works
+            muted
           />
         </div>
       </div>
