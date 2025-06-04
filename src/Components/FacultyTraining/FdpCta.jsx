@@ -13,7 +13,7 @@ const testimonials = [
     title:
       "President Designate - Indira University & Chairperson and Chief Mentor",
     institution: "Indira Group of Institutes, Pune",
-    profilePic: "Clgimage/iu.png",
+    profilePic: "Clgimage/iu.avif",
   },
   {
     message:
@@ -36,7 +36,7 @@ const testimonials = [
     name: "Ms. Neha A Parsoon",
     title: "Training and Placement Officer",
     institution: "Sharad Institute Of Technology College Of Engineering Ichalkaranji, Kolhapur",
-    profilePic: "placement-bg/vsit.png",
+    profilePic: "placement-bg/vsit.avif",
   },
   {
     message:
@@ -44,7 +44,7 @@ const testimonials = [
     name: "Ms. Priyanka Pawar",
     title: "Associate Professor & Dy. Director Training & Development",
     institution: "Indira College of Engineering & Management (ICEM), Pune",
-    profilePic: "placement-bg/Collegelogo1.png",
+    profilePic: "placement-bg/Collegelogo1.avif",
   },
   {
     message:
@@ -52,7 +52,7 @@ const testimonials = [
     name: "Dr. Thomas George",
     title: "Director",
     institution: "Lead College of Management, Palakkad, Kerala",
-    profilePic: "Clgimage/lead.png",
+    profilePic: "Clgimage/lead.avif",
   },
   {
     message:
@@ -68,7 +68,7 @@ const testimonials = [
     name: "Mr. Manoj Choughule ",
     title: "Training and Placement Officer",
     institution: "DKTE - Yashwntaro Chavan college of polytechnic ",
-    profilePic: "Clgimage/dkte.png",
+    profilePic: "Clgimage/dkte.avif",
   },
   {
     message:
@@ -76,7 +76,7 @@ const testimonials = [
     name: "Mr. Anoop Seth ",
     title: "Director- Placements & Corporate Connect",
     institution: "Lexicon MILE - Management Institute For Leadership and Excellence ",
-    profilePic: "Clgimage/lexicon.png",
+    profilePic: "Clgimage/lexicon.avif",
   },
 ];
 
