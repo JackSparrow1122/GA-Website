@@ -91,7 +91,7 @@ const Footer = () => {
               <img src="/LandingImage/social-in.svg" alt="LinkedIn" className="w-8 h-8 hover:opacity-80 transition duration-300" />
             </a>
             <a href="https://www.youtube.com/channel/UCVn2uVWEHg8cMFd8ht3CQBw" target="_blank" rel="noopener noreferrer">
-              <img src="/LandingImage/youtube.png" alt="YouTube" className="w-8 h-8 hover:opacity-80 transition duration-300" />
+              <img src="/LandingImage/youtube.avif" alt="YouTube" className="w-8 h-8 hover:opacity-80 transition duration-300" />
             </a>
           </div>
         </div>
