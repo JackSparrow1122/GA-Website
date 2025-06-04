@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import checklist from '/public/Clgimage/checklist.png'; // ✅ Adjust path if needed
+import checklist from '/public/Clgimage/checklist.avif'; // ✅ Adjust path if needed
 
 const CollegeInfoSection = () => {
   useEffect(() => {

@@ -75,14 +75,14 @@ const testimonials = [
     review: "The Synergy Sphere 2024 event showcased Gryphon Academy’s dedication to bridging academia and industry. Bringing together over 100 HR leaders on one platform was a masterstroke that facilitated meaningful collaborations and highlighted Gryphon's role as a talent powerhouse.",
     name: "Mr. Ram Honap",
     rating: "★★★★★",
-    companyLogo: "Logos/8.png",
+    companyLogo: "Logos/5.avif",
     companyName: "National Head HR Coca Cola",
   },
    {
     review: "The training modules at Gryphon Academy are tailored to meet the evolving needs of the industry. This foresight and adaptability are why their students excel across diverse domains, making them a valuable addition to any organization.",
     name: "Mr. Avinash Talreja",
     rating: "★★★★★",
-    companyLogo: "Logos/555.png",
+    companyLogo: "Logos/555.avif",
     companyName: "Deputy General Manager Human Resource | Schneider ",
   },
   {
@@ -117,7 +117,7 @@ const testimonials = [
     review: "The candidates we’ve recruited from Gryphon Academy bring a rare blend of technical prociency and soft skills. Their readiness to adapt and excel in dynamic environments is a reection of the robust training they receive at through the Industry Readiness Programme.",
     name: "Mr. Manroop Singh",
     rating: "★★★★★",
-    companyLogo: "Logos/37.png",
+    companyLogo: "Logos/37.avif",
     companyName: "Head TA Operations & University Relations Xperi inc",
   },
    {
