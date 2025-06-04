@@ -60,7 +60,7 @@ const testimonials = [
   {
     review: "Thanks to Gryphon Academy , I transitioned from a student to a professional seamlessly. The practical insights ,resume workshops and mock interview helped me secure a role at my dream company. the training was invaluable.",
     name: "Mr. Arjun Mahamuni",
-    companyLogo: "/Logos/28.png",
+    companyLogo: "/Logos/28.avif",
     companyName: "Philips",
     rating: "★★★★★",
     batch: "2025",

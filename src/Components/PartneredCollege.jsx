@@ -1,4 +1,5 @@
 import React from 'react';
+
 import college1 from '/public/placement-bg/Collegelogo1.avif';
 import college2 from '/public/placement-bg/College logo 2 1.avif';
 import college3 from '/public/placement-bg/College logo 3 1.avif';
