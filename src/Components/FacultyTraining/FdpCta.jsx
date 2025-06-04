@@ -21,7 +21,7 @@ const testimonials = [
     name: "Ms. Dhanwantari Wangde",
     title: "CEO",
     institution: "Dnyanshree Institute of Engineering & Technology, Satara",
-    profilePic: "Clgimage/diet.png",
+    profilePic: "Clgimage/diet.avif",
   },
   {
     message:
@@ -29,7 +29,7 @@ const testimonials = [
     name: "Mr. Amit Kolhe",
     title: "Managing Trustee",
     institution: "Sanjivani College of Engineering, Kopargaon",
-    profilePic: "Clgimage/sanjivani.png",
+    profilePic: "Clgimage/sanjivani.avif",
   },
   {
     message: "Sharad Institute of Technology College of Engineering, Ichalkaranji Kolhapur, has partnered with Gryphon Academy. Together, we are dedicated to providingcomprehensive services to students across all domains. Gryphon's proven track record in delivering outstanding results for various institutions has impressed us.  "  ,
@@ -60,7 +60,7 @@ const testimonials = [
     name: "Mr. Makrand Kaingade",
     title: "Training and Placement Officer ",
     institution: "DY Patil College of Engineering & Technology, Kolhapur",
-    profilePic: "placement-bg/College logo 7.png",
+    profilePic: "placement-bg/College logo 7.avif",
   },
   {
     message:
@@ -272,7 +272,7 @@ const ContactForm = () => {
                 </h1>
 
                 <img
-                  src="LandingImage/contactform.png"
+                  src="LandingImage/contactform.avif"
                   alt="Salesperson illustration"
                   className="w-64 md:w-72 lg:w-80 xl:w-96 max-w-full h-auto object-cover rounded-lg flex-1"
                   style={{ minWidth: "150px" }} // Adjust as needed

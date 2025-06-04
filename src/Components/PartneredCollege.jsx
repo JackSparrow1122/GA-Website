@@ -4,7 +4,7 @@ import college2 from '/public/placement-bg/College logo 2 1.png';
 import college3 from '/public/placement-bg/College logo 3 1.png';
 import college4 from '/public/placement-bg/College logo 4 1.png';
 import college5 from '/public/Clgimage/5-2.png';
-import college6 from '/public/placement-bg/College logo 7.png';
+import college6 from '/public/placement-bg/College logo 7.avif';
 import college7 from '/public/Clgimage/iicmrnew.png';
 import college8 from '/public/Clgimage/dietnew.png';
 import college9 from '/public/Clgimage/sce.png';

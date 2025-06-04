@@ -44,7 +44,7 @@ const SuccessfulDrives = () => {
 
         {/* Full-width Image */}
         <img 
-          src="placement-bg/TopPlacement.png" 
+          src="placement-bg/TopPlacement.avif" 
           alt="Main Drive" 
           className="w-full h-full rounded-lg object-cover"
         />

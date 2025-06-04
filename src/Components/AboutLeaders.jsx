@@ -14,7 +14,7 @@ const MeetTheLeaders = () => {
     name: "Mr. Shashi Bhat",
     message:
       "At Gryphon Academy, our mission is to bridge the gap between Industry and academia by creating an industry-ready workforce within the walls of educational institutions. Through customized learning programmes tailored for professional courses, we ensure students are equipped with the practical skills to contribute from day one. With over 15 years of expertise in academia and corporate relations, we’ve built strong partnerships with top recruiters, opening exceptional career opportunities for students. Gryphon Academy's vast network of industry leaders reflects our commitment to aligning education with real-world demands and shaping the future of professional growth. ",
-    profilePic: "/About/foun.PNG", // Replace with actual image path
+    profilePic: "/About/foun.avif", // Replace with actual image path
   };
 
   const coFounder = {
@@ -22,7 +22,7 @@ const MeetTheLeaders = () => {
     name: "Ms. Ummeaiman Ansari",
     message:
       "At Gryphon Academy, we envision a transformative approach towards education that bridges the gap between academia and industry. Drawing from my 15 years of enriching experience in industry, I have witnessed the challenges firsthand that industries faces in finding and nurturing talent equipped for real-world complexities. This approach of ours drives our mission to create an industry-ready workforce within the walls of campuses. What sets Gryphon apart is our focus on practical and application based customization of our training programmes. We begin by engaging directly with industry leaders to understand their unique challenges, skill requirements, and future goals. These insights form the foundation of our curriculum, ensuring it is tailored to meet specific industrial demands, from technical expertise to behavioral skills, we design every training module with precision and outcome based purpose. ",
-    profilePic: "/About/cf.PNG", // Replace with actual image path
+    profilePic: "/About/cf.avif", // Replace with actual image path
   };
 
   return (

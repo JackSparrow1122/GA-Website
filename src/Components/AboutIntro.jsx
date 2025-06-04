@@ -12,7 +12,7 @@ const AboutIntro = () => {
   }, []);
 
   const handleNavigate = () => {
-    window.location.href = "/contact";
+    window.location.href = "/contact";  
   };
 
   return (
