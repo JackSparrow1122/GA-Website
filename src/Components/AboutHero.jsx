@@ -1,32 +1,34 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS styles
+import 'aos/dist/aos.css';
 
 const AboutHero = () => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
+    AOS.init({ duration: 800, once: true });
   }, []);
 
   return (
-    <section 
-      className="bg-[#01224F] text-white flex flex-col md:flex-row items-center justify-between py-4"
-    >
-      <div className="w-full max-w-screen-lg px-8 md:px-16 flex-1" data-aos="fade-right">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 text-[#FFC80E]">
+    <section className="bg-[#01224F] text-white flex flex-col md:flex-row items-center justify-between py-10 md:py-16 px-6 md:px-16">
+      {/* Left Section */}
+      <div className="w-full md:w-1/2 mb-8 md:mb-0" data-aos="fade-right">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-[#FFC80E]">
           ABOUT US
         </h1>
-        <h2 className="text-xl md:text-2xl font-semibold mb-4" data-aos="fade-left">
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-white" data-aos="fade-left">
           Bridging the Gap Between Industry and Academia
         </h2>
-        <p className="text-base md:text-lg font-medium mb-12" style={{ color: '#F0F0F0' }} data-aos="fade-up">
-        <b>We are the India's, premier non-ed-tech training and placement organization,</b> committed to bridging the gap between industry and academia, through customized training programmes which are tailored as per the Industry-centric needs.  
+        <p className="text-base sm:text-lg font-medium leading-relaxed text-[#F0F0F0]" data-aos="fade-up">
+          <b>We are India&apos;s premier non-ed-tech training and placement organization,</b> committed to bridging the gap between industry and academia through customized training programmes tailored to industry-centric needs.
         </p>
       </div>
-      <div className="w-full md:w-1/2 flex justify-center mb-4 md:mb-0" data-aos="zoom-in">
-        <img 
-          src="/About/heroNew1.avif" // Replace with your vector graphic path
+
+      {/* Right Section */}
+      <div className="w-full md:w-1/2 flex justify-center" data-aos="zoom-in">
+        <img
+          src="/About/heroNew1.avif"
           alt="Vector Graphic"
-          className="max-w-full h-auto"
+          className="w-full max-w-md h-auto rounded-lg shadow-lg"
+          loading="lazy"
         />
       </div>
     </section>
